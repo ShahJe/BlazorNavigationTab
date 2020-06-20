@@ -9,6 +9,10 @@
     <PackageTags>Blazor Tab Navigation</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Description>Helper class to enable url change on Blazor tab index change and mapping url to Blazor tab index.</Description>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <Copyright>Shahid Syed</Copyright>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
