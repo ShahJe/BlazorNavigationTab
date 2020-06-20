@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/ShahJe.Blazor.NavigationTab/bin/Debug
+/ShahJe.Blazor.NavigationTab/.vs/ShahJe.Blazor.NavigationTab/v16
+/ShahJe.Blazor.NavigationTab/obj
