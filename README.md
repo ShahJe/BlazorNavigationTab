@@ -5,6 +5,15 @@ Currently supports Radzen Tabs.
 
 Following code snippet shows how to setup:
 
+    @page "/radzentab"
+    @page "/radzentab/tab2"
+    @page "/radzentab/tab3"
+
+    @inject NavigationManager NavigationManager
+
+    <h1>Radzen Blazor Navigation Tab Demo</h1>
+    <p>Click on tab buttons and notice url also changes. Change the url manually to point to some other tab and appropriate tab will be selected.</p>
+
     <RadzenTabs SelectedIndex="@NavigationTab.TabIndex" Change="@NavigationTab.TabIndexChanged">
         <Tabs>
             <RadzenTabsItem Text="Tab 1">
