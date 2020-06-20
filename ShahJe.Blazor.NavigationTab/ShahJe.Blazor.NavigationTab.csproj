@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+    <Authors>Shahid Syed</Authors>
+    <Company />
+    <PackageProjectUrl>https://github.com/ShahJe/BlazorNavigationTab</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ShahJe/BlazorNavigationTab.git</RepositoryUrl>
+    <PackageTags>Blazor Tab Navigation</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
@@ -14,6 +21,13 @@
     <PackageReference Include="Microsoft.AspNetCore.Components">
       <Version>3.1.5</Version>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
