@@ -1,5 +1,5 @@
 # Blazor Navigation Tab
-Helper class to enable url change on Blazor tab index change and mapping url to Blazor tag index.
+Helper class to enable url change on Blazor tab index change and mapping url to Blazor tab index.
 
 Nuget package: https://www.nuget.org/packages/ShahJe.Blazor.NavigationTab
 
