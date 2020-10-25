@@ -10,14 +10,15 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Description>Helper class to enable url change on Blazor tab index change and mapping url to Blazor tab index.</Description>
-    <Version>1.0.1</Version>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <Version>1.0.7</Version>
+    <AssemblyVersion>1.0.7.0</AssemblyVersion>
     <Copyright>Shahid Syed</Copyright>
+    <PackageReleaseNotes>Updating to Radzen.Blazor 2.15.17 and Microsoft.AspNetCore.Components 3.1.9</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
     <PackageReference Include="Microsoft.AspNetCore.Components">
-      <Version>3.1.5</Version>
+      <Version>3.1.9</Version>
     </PackageReference>
   </ItemGroup>
 
@@ -32,6 +33,10 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Radzen.Blazor" Version="2.15.17" />
   </ItemGroup>
 
 </Project>
