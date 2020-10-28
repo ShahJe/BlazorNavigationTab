@@ -6,14 +6,14 @@
     <Company />
     <PackageProjectUrl>https://github.com/ShahJe/BlazorNavigationTab</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ShahJe/BlazorNavigationTab.git</RepositoryUrl>
-    <PackageTags>Blazor Tab Navigation</PackageTags>
+    <PackageTags>blazor tab navigation radzen</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Description>Helper class to enable url change on Blazor tab index change and mapping url to Blazor tab index.</Description>
-    <Version>1.0.8</Version>
-    <AssemblyVersion>1.0.8.0</AssemblyVersion>
+    <Version>1.0.9</Version>
+    <AssemblyVersion>1.0.9.0</AssemblyVersion>
     <Copyright>Shahid Syed</Copyright>
-    <PackageReleaseNotes>Updating to Radzen.Blazor 2.15.18</PackageReleaseNotes>
+    <PackageReleaseNotes>Updating to Radzen.Blazor 2.15.19</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
@@ -36,7 +36,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Radzen.Blazor" Version="2.15.18" />
+    <PackageReference Include="Radzen.Blazor" Version="2.15.19" />
   </ItemGroup>
 
 </Project>
