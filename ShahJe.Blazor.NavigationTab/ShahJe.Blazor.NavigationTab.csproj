@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+    <TargetFrameworks>net8;net9</TargetFrameworks>
     <Authors>Shahid Syed</Authors>
     <Company />
     <PackageProjectUrl>https://github.com/ShahJe/BlazorNavigationTab</PackageProjectUrl>
@@ -10,23 +10,11 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Description>Helper class to enable url change on Blazor tab index change and mapping url to Blazor tab index.</Description>
-    <Version>1.0.9</Version>
-    <AssemblyVersion>1.0.9.0</AssemblyVersion>
+    <Version>1.1.0</Version>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
     <Copyright>Shahid Syed</Copyright>
-    <PackageReleaseNotes>Updating to Radzen.Blazor 2.15.19</PackageReleaseNotes>
+    <PackageReleaseNotes>Updating to Radzen.Blazor 6.1.4. Targeting .net8 and .net9.</PackageReleaseNotes>
   </PropertyGroup>
-
-  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
-    <PackageReference Include="Microsoft.AspNetCore.Components">
-      <Version>3.1.9</Version>
-    </PackageReference>
-  </ItemGroup>
-
-  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
-    <PackageReference Include="Microsoft.AspNetCore.Components">
-      <Version>3.1.5</Version>
-    </PackageReference>
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\LICENSE">
@@ -36,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Radzen.Blazor" Version="2.15.19" />
+    <PackageReference Include="Radzen.Blazor" Version="6.1.4" />
   </ItemGroup>
 
 </Project>
